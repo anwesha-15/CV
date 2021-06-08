@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Feedback Form</title>
+</head>
+
+<body>
+  <h2>Your Feedbacks</h2>
+  <form class="feedback" action="mailto:anweshakhuntia15@gmail.com" method="post" enctype="text/plain">
+    <table cellspacing="3">
+      <tr>
+        <td><label for="firstName"><b>Your First Name:</b></label></td>
+        <td><label for="lastName"><b>Your Last Name:</b></label></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="firstName" value=""></td>
+        <td><input type="text" name="lastName" value=""></td>
+      </tr>
+    </table>
+    <br>
+    <label for="emailAddress"><b>Your Email Address:</b></label><br>
+    <input type="email" name="emailAddress" value=""><br><br>
+    <label for="country'sName"><b>Your Country's Name:</b></label><br>
+    <input type="text" name="country'sName" value=""><br><br>
+    <label for="submissionDate"><b>Select the Date:</b></label><br>
+    <input type="date" name="submissionDate" value="2021-06-01" max="2021-12-31"><br><br>
+    <p>I have created <b>My First Web Page</b> using <b>ATOM</b>(Text Editor). I hope you like it. How much you gonna rate it?</p>
+    <input type="radio" name="ratingChoice1" value="1star">
+    <label for="ratingChoice1">⭐</label>
+    <input type="radio" name="ratingChoice2" value="2stars">
+    <label for="ratingChoice2">⭐⭐</label>
+    <input type="radio" name="ratingChoice3" value="3stars">
+    <label for="ratingChoice3">⭐⭐⭐</label>
+    <input type="radio" name="ratingChoice4" value="4stars">
+    <label for="ratingChoice4">⭐⭐⭐⭐</label>
+    <input type="radio" name="ratingChoice5" value="5stars">
+    <label for="ratingChoice5">⭐⭐⭐⭐⭐</label><br><br>
+    <label for="comments"><b>Any Comments/Suggestions:</b></label><br>
+    <textarea name="comments" rows="9" cols="45"></textarea><br><br>
+    <input type="reset" name="reset" value="Reset">
+    <input type="submit" name="submit" value="Submit">
+  </form>
+</body>
+
+</html>
